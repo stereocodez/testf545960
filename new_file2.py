@@ -1,10 +1,8 @@
-def bark():
-    return 'uooofff!'
+# lets refactor completely
+class Life(object):
+    meaning=42
 
-def calc_meaning_of_life(arg1):
-    fact1 = arg1*8
-    return 6*7
+    def get_meaning(self):
+        return self.meaning
 
-def calc_tetris():
-    return "not implemented!"
 
